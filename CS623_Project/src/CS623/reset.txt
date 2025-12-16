@@ -1,0 +1,19 @@
+Reset tables
+After #1 and #2:
+INSERT INTO product VALUES ('p1', 'tape', 2.5);
+INSERT INTO Depot VALUES ('d1', 'New York', 9000);
+INSERT INTO stock VALUES ('p1', 'd1', 1000);
+INSERT INTO Stock VALUES ('p1', 'd2', -100);
+INSERT INTO Stock VALUES ('p1', 'd4', 1200);
+INSERT INTO stock VALUES ('p3', 'd1', 3000);
+INSERT INTO stock  VALUES ('p2', 'd1', -400);
+
+
+
+After #3 and #4:
+UPDATE depot SET dep_id = 'd1' WHERE dep_id = 'dd1';
+UPDATE product SET prod_id = 'p1' WHERE prod_id = 'pp1';
+
+
+After #5:
+UPDATE product SET prod_id = 'p1' WHERE prod_id = 'pp1';
