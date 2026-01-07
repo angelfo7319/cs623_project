@@ -4,8 +4,8 @@ public class ProjectTransactions{
 	
 	private static final String URL =
 			"jdbc:postgresql://localhost:5432/postgres";
-	private static final String USER = "postgres";
-	private static final String PASS = "3577";
+	private static final String USER = "";
+	private static final String PASS = "";
 	
 	//Method to check connection to PostgreSQL database
 	public static void testConnection() {
@@ -286,5 +286,6 @@ public class ProjectTransactions{
 			}
 		}
 	}
+
 
 }
